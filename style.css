@@ -1,0 +1,617 @@
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    margin: 0;
+}
+
+#cabeçalho {
+    display: flex;
+    align-items: center;
+    background-color: #02A28F;
+    width: 100%;
+    height: 4.3rem;
+    color: #FFFFFF;
+}
+
+#cabeçalho h1 {
+    font-size: 2.25rem;
+    position: relative;
+    margin-left: 9.75rem;
+}
+
+#grid {
+    height: auto;
+    display: grid;
+    grid-template-columns: 65% auto;
+    grid-template-rows: 35% auto;
+}
+
+#container-img {
+    position: relative;
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+}
+
+#container > img {
+    width: 79%;
+    height: 50%;
+    margin: 2.5rem 0 0 7.5rem;
+}
+
+#artigo {
+    grid-area: 2 / 1;
+    height: 100%;
+}
+
+.article-title {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 71%;
+    justify-content: space-between;
+    margin: .5rem 0 .5rem 8.5rem;
+    background-color: #02A28F;
+    border-radius: .62rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#card-grid {
+    width: 92%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 56% auto;
+    grid-template-rows: 1fr 1fr;
+}
+
+.img-grid1 {
+    display: flex;
+    justify-content:right
+}
+
+.img-grid1 > img {
+    width: 75%;
+    height: auto;
+}
+
+.img-grid2 {
+    display: flex;
+}
+
+.img-grid2 > img {
+    width: 95%;
+    height: auto;
+}
+
+.img-grid3 {
+    display: flex;
+    justify-content:right
+}
+
+.img-grid3 > img {
+    width: 75%;
+    height: auto;
+}
+
+.img-grid4 {
+    display: flex;
+}
+
+.img-grid4 > img {
+    width: 95%;
+    height: auto;
+}
+
+#flex-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    background-color: #02A28F;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: .62rem;
+    box-shadow: .06rem .62rem .62rem 0 rgba(0, 0, 0, 0.1);
+    height: 2.5rem;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    padding: 1rem 0 0 1rem;
+}
+
+.card1 {
+    display: flex;
+    box-shadow: .06rem .62rem .62rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: .62rem;
+    width: 73%;
+    height: 6rem;
+}
+
+.card1 > img {
+    margin: .6rem .4rem 0 .6rem;
+    width: 35%;
+    height: 4.37rem;
+
+}
+
+.card1 > div > h3 {
+    margin: .6rem 0 0 0;
+    font-size: .87rem;
+}
+
+.card1 > div > p {
+    font-size: .75rem;
+    color: #616161;
+    margin :0 ;
+}
+
+.card2 {
+    display: flex;
+    box-shadow: .06rem .62rem .62rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: .62rem;
+    width: 73%;
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.card2 > img {
+    margin: .6rem .4rem 0 .6rem;
+    width: 35%;
+    height: 4.37rem;
+
+}
+
+.card2 > div > h3 {
+    margin: .6rem 0 0 0;
+    font-size: .87rem;
+}
+
+.card2 > div > p {
+    font-size: .75rem;
+    color: #616161;
+    margin :0 ;
+}
+
+.card3 {
+    display: flex;
+    box-shadow: .06rem .62rem .62rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: .62rem;
+    width: 73%;
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.card3 > img {
+    margin: .6rem .4rem 0 .6rem;
+    width: 35%;
+    height: 4.37rem;
+
+}
+
+.card3 > div > h3 {
+    margin: .6rem 0 0 0;
+    font-size: .87rem;
+}
+
+.card3 > div > p {
+    font-size: .75rem;
+    color: #616161;
+    margin :0 ;
+}
+
+#title-nav > h2 {
+    background-color: #02A28F;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: .62rem;
+    box-shadow: .06rem .62rem .62rem 0 rgba(0, 0, 0, 0.1);
+    height: 2.5rem;
+    width: 70%;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0 0 1rem;
+}
+
+#lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list {
+    width: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02A28F;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    #grid {
+        grid-template-columns: 55% 40%;
+    }
+
+    #cabeçalho {
+        justify-content: flex-start;
+        height: 3.3rem;
+    }
+
+    #cabeçalho h1 {
+        margin-left: 7.75rem;
+        font-size: 2rem
+    }
+
+    #container > img {
+        margin: .2rem 0 0 1rem;
+        width: 95%;
+    }
+
+    .card-title {
+        height: auto;
+        padding: .5rem 0 .5rem .5rem;
+        margin-top: .3rem;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+
+    .card1 {
+        height: 4rem;
+        width: 73%;
+    }
+
+    .card1 > img {
+        margin-top: .5rem;
+        width: 30%;
+        height: 70%;
+    }
+
+    .card1 > div > h3 {
+        margin-top: .5rem;
+        font-size: .7rem;
+        padding-bottom: .3rem;
+    }
+
+    .card1 > div > p {
+        font-size: .6rem;
+        padding-bottom: 1rem;
+    }
+
+    .card2 {
+        height: 4rem;
+        width: 73%;
+        margin-top: .2rem;
+    }
+
+    .card2 > img {
+        margin-top: .5rem;
+        width: 30%;
+        height: 70%;
+    }
+
+    .card2 > div > h3 {
+        margin-top: .5rem;
+        font-size: .7rem;
+        padding-bottom: .3rem;
+    }
+
+    .card2 > div > p {
+        font-size: .6rem;
+        padding-bottom: 1rem;
+    }
+
+    .card3 {
+        height: 4rem;
+        width: 73%;
+        margin-top: .2rem;
+    }
+
+    .card3 > img {
+        margin-top: .5rem;
+        width: 30%;
+        height: 70%;
+    }
+
+    .card3 > div > h3 {
+        margin-top: .5rem;
+        font-size: .7rem;
+        padding-bottom: .3rem;
+    }
+
+    .card3 > div > p {
+        font-size: .6rem;
+        padding-bottom: 1rem;
+    }
+
+    .article-title {
+        margin-left: 1rem;
+        height: 9%;
+        width: 82%;
+        margin-top: .8rem;
+    }
+
+    .article-title > h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .article-title > p {
+        margin: 0;
+    }
+
+    .article-title > p > a {
+        font-size: .8rem;
+    }
+
+    #title-nav > h2 {
+        font-size: 1rem;
+        padding: .5rem 0 .5rem .5rem;
+        margin-bottom: .5rem;
+        height: auto;
+        margin-top: .8rem;
+    }
+
+    #card-grid {
+        position: relative;
+        right: 1rem;
+    }
+
+    .list {
+        align-items: center;
+    }
+
+    .list > li {
+        font-size: .8rem;
+    }
+
+    .list > p {
+        font-size: .8rem;
+    }
+
+    footer {
+       margin-top: 1rem;
+    }
+
+    footer > p {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    #cabeçalho {
+        justify-content: center;
+    }
+
+
+    #cabeçalho > h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    #grid {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    #container > img {
+        margin: 0;
+        width: 100%;
+        height: 24.75rem;
+    }
+
+    .article-title {
+        margin: 0 0 1rem .6rem;
+        padding: .5rem 0 .5rem 1rem;
+        width: 91%;
+        height: 2rem;
+    }
+
+    .article-title > h2 {
+        font-size: 1.25rem;
+    }
+
+    .article-title > p {
+        font-size: .8rem;
+        margin: 0;
+        padding-right: .8rem;
+    }
+
+    #card-grid {
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+
+    .img-grid1 {
+        justify-content: center;
+    }
+
+    .img-grid1 > img {
+        width: 96%;
+    }
+
+    .img-grid2 {
+        justify-content: center;
+    }
+
+    .img-grid2 > img {
+        width: 96%;
+    }
+
+    .img-grid3 {
+        justify-content: center;
+    }
+
+    .img-grid3 > img {
+        width: 96%;
+    }
+
+    .img-grid4 {
+        justify-content: center;
+    }
+
+    .img-grid4 > img {
+        width: 96%;
+    }
+
+    .card-title {
+        width: 94%;
+        text-align: center;
+        padding: .6rem 0 0 0;
+        height: 2.4rem;
+        align-self: center;
+        margin: 1rem 0 0 0;
+    }
+
+    .card1 {
+        width: 94%;
+        align-self: center;
+        margin-top: .5rem;
+    }
+
+    .card2 {
+        width: 94%;
+        align-self: center;
+        margin-top:.5rem;
+    }
+
+    .card3 {
+        width: 94%;
+        align-self: center;
+        margin-top:.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #title-nav > h2 {
+        width: 95%;
+        text-align: center;
+        margin: 0 0 1rem .7rem;
+        height: 2.3rem;
+        padding-top: 0.7rem;
+        padding-left: 0;
+    }
+
+    #lista {
+        margin-left: .8rem;
+        width: auto;
+    }
+
+    .list {
+        width: auto;
+        align-items: center;
+    }
+
+    .list > p {
+        margin-right: .7rem;
+    }
+
+    footer {
+        margin-top: 1rem;
+        height: 3rem;
+    }
+
+    footer > p {
+        font-size: .87rem;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1439px) {
+    #container > img {
+        margin-left: 5.5rem;
+    }
+
+    .article-title {
+        margin-left: 5.5rem;
+    }
+}
+
+@media screen and (min-width: 1660px) and (max-width: 2560px) {
+    .article-title {
+        width: 85%;
+    }
+
+    .card1 {
+        height: 20%;
+    }
+
+    .card1 > img {
+        height: fit-content;
+    }
+
+    .card1 > div > h3 {
+        font-size: x-large;
+    }
+
+    .card1 > div > p {
+        font-size: larger;
+    }
+
+    .card2 {
+        height: 20%;
+    }
+
+    .card2 > img {
+        height: fit-content;
+    }
+
+    .card2 > div > h3 {
+        font-size: x-large;
+    }
+
+    .card2 > div > p {
+        font-size: larger;
+    }
+
+    .card3 {
+        height: 20%;
+    }
+
+    .card3 > img {
+        height: fit-content;
+    }
+
+    .card3 > div > h3 {
+        font-size: x-large;
+    }
+
+    .card3 > div > p {
+        font-size: larger;
+    }
+
+    .list {
+        font-size: x-large;
+    }
+}
+
+
